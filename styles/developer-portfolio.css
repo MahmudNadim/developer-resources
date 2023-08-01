@@ -103,6 +103,7 @@ main {
     margin-top: 130px;
     max-width: 1140px;
     margin: 0 auto;
+    /* text-align: center; */
 }
 
 .about {
@@ -114,16 +115,17 @@ main {
 }
 
 .section-title {
-    /* text-align: center; */
+    text-align: center;
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 30px;
     /* padding-top: 131px; */
 }
 
 .section-description {
-    padding: 30px 0;
+    /* padding: 30px 0; */
     color: var(--dark-03, #757575);
     /* text-align: center; */
     font-family: Open Sans;
@@ -152,4 +154,59 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
+}
+
+/* wht i do styles */
+.what-i-do {
+    margin-top: 130px;
+    /* text-align: center; */
+}
+
+
+.section-description-what-i-do {
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 346px 50px 345px;
+    margin: 0 auto;
+    width: 909px;
+    height: 90px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    /* margin: 50px 230px 50px 230px; */
+}
+
+.skill {
+    /* width: 267px;
+    height: 377px;
+    flex-shrink: 0; */
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 33px;
+}
+
+.skill-title {
+    color: var(--dark-01, #181818);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.skill-description {
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
 }
