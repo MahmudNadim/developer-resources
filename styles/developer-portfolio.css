@@ -25,7 +25,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 225px;
+    padding: 50px 225px;
 }
 
 nav ul {
@@ -102,8 +102,13 @@ nav li {
 main {
     margin-top: 130px;
     max-width: 1140px;
+    /* max-width: 1600px; */
     margin: 0 auto;
     /* text-align: center; */
+}
+
+section {
+    margin-top: 130px;
 }
 
 .about {
@@ -138,6 +143,7 @@ main {
 .about-info-container {
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 .info-title {
@@ -200,6 +206,7 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 30px 0;
 }
 
 .skill-description {
@@ -209,4 +216,125 @@ main {
     font-weight: 400;
     line-height: 28px;
     /* 175% */
+}
+
+/* resume style */
+/* resume{
+    text-align: center;
+} */
+.resume-content {
+    display: flex;
+    margin-top: 113px;
+    gap: 24px;
+}
+
+.resume-title {
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.resume-item-title {
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px 0 30px 0;
+}
+
+.resume-sub-title {
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.resume-description {
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    margin-bottom: 30px;
+    width: 511px;
+    height: 84px;
+    /* text-align:left; */
+}
+
+hr {
+    width: 558px;
+    height: 1px;
+    background: #D1D1D1;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* footer styles */
+.footer {
+    width: 100%;
+    /* max-width: 1140px; */
+    /* height: 780px; */
+    margin: 0 auto;
+    flex-shrink: 0;
+    background: #FFF8F3;
+    margin-top: 113px;
+}
+
+.contact {
+    display: flex;
+    gap: 117px;
+    padding: 113px 200px 113px 115px;
+    /* padding-top: 113px;
+    padding-left: 230px; */
+}
+
+.contact .section-title {
+    text-align: left;
+    width: 305px;
+}
+
+.contact .section-description {
+    margin: 20px 0 30px;
+    width: 562px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 28px
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact a img {
+    margin-right: 24px;
+}
+
+.contact input[type="text"], input[type="email"], textarea {
+    /* width: 461px; */
+    width: 350px;
+    /* height: 64px; */
+    border-radius: 5px;
+    background: var(--white-color, #FFF);
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 48px;
 }
